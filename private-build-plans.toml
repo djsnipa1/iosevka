@@ -1,29 +1,56 @@
 [buildPlans.iosevka-normal]
 family = "iosevka-normal"
 spacing = "normal"
-serifs = "sans"
+serifs = "slab"
 no-cv-ss = true
+export-glyph-names = true
 
   [buildPlans.iosevka-normal.variants]
-  inherits = "ss14"
+  inherits = "ss08"
+
+    [buildPlans.iosevka-normal.variants.design]
+    capital-b = "standard-bilateral-serifed"
+    capital-c = "bilateral-serifed"
+    capital-g = "toothed-serifed-hooked"
+    capital-m = "hanging"
+    capital-q = "detached-tailed"
+    capital-r = "straight-open"
+    capital-s = "bilateral-serifed"
+    capital-u = "tailed"
+    capital-z = "curly-bottom-serifed-with-horizontal-crossbar"
+    c = "bilateral-serifed"
+    f = "serifed"
+    g = "double-storey-open"
+    h = "straight"
+    i = "serifed-asymmetric"
+    r = "serifed"
+    s = "bilateral-serifed"
+    u = "tailed"
+    z = "curly-serifless-with-crossbar"
+    zero = "dotted"
+    one = "base-flat-top-serif"
+    three = "flat-top"
+    four = "semi-open-non-crossing"
+    five = "oblique-upper-left-bar"
+    six = "open-contour"
+    seven = "straight-crossbar-serifed"
+    eight = "two-circles"
+    nine = "open-contour"
+    punctuation-dot = "round"
+    asterisk = "turn-hex-high"
+    paren = "large-contour"
+    brace = "curly"
+    number-sign = "slanted-open-tall"
+    ampersand = "upper-open"
+    at = "fourfold-solid-inner-tall"
+    dollar = "open"
+    percent = "rings-segmented-slash"
+    question = "corner"
+    pilcrow = "high"
+    cent = "bar-interrupted"
 
   [buildPlans.iosevka-normal.ligations]
-  inherits = "clike"
-
-  [buildPlans.iosevka-normal.variants.design]
-    x = "curly-serifless"
-    i = "flat-tailed"
-    l = "serifed-flat-tailed"
-    zero = "slashed"
-    pilcrow = "high"
-    caret = "low"
-    paren = "normal"
-    brace = "straight"
-    number-sign = "upright"
-    ampersand = "closed"
-    dollar = "open-cap"
-    bar = "force-upright"
-    question = "smooth"
+  inherits = "javascript"
 
 [buildPlans.iosevka-normal.weights.regular]
 shape = 400
@@ -44,3 +71,15 @@ css = 600
 shape = 700
 menu = 700
 css = 700
+
+[buildPlans.iosevka-normal.slopes.upright]
+angle = 0
+shape = "upright"
+menu = "upright"
+css = "normal"
+
+[buildPlans.iosevka-normal.slopes.italic]
+angle = 9.4
+shape = "italic"
+menu = "italic"
+css = "italic"
