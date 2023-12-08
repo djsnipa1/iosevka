@@ -13,6 +13,7 @@ $ nix build github:djsnipa1/iosevka
 
 ![](./screenshot.png)
 
-## Symbols
+
+## Symbols (WIP)
 
 Nerd fonts is not patched into the font. Download symbols separately: https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/NerdFontsSymbolsOnly
